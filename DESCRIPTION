@@ -1,0 +1,18 @@
+Package: shiny.destroy
+Type: Package
+Title: Create destroyable modules in 'Shiny'
+Version: 0.1.0
+Authors@R: person("Ashley", "Baldry", email = "arbaldry91@gmail.com", role = c("aut", "cre"))
+Description: A way to fully remove dynamic 'Shiny' modules from a session.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: purrr, rlang, shiny
+Suggests: bslib, htmltools, knitr, rmarkdown, shinytest2, testthat (>=
+        3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2024-09-09 19:16:40 UTC; arbal
+Author: Ashley Baldry [aut, cre]
+Maintainer: Ashley Baldry <arbaldry91@gmail.com>
